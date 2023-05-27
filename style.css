@@ -1,0 +1,200 @@
+/* Using Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Style */
+body {
+    background-color: rgb(3, 3, 37);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Div Left major changing */
+.left {
+    font-size: 1.5rem;
+}
+
+/* Nav Bar Style */
+/* Path : Header => Nav */
+nav {
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(4, 4, 66);
+
+}
+
+/* Path : Header => Nav => ul*/
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+/* Path : Header => Nav => ul => li */
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+/* Path : Header => Nav => ul => li => a*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Path : Header => Nav => ul => li => a => hover*/
+nav ul li a:hover {
+    color: rgb(118, 118, 240);
+    font-size: 1.04rem;
+}
+
+/* Main All Section. */
+/* Path : Main => Section => Div */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+/* firstSection => div */
+.firstSection > div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 1.7rem;
+}
+
+
+/* LeftSection => Buttons */
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+/* LeftSection => Buttons => btn */
+.leftSection .btn {
+    top: 5px;
+    padding: 12px;
+    background: #100d3a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 120%;
+    margin: 50px 0;
+}
+
+/* firstSection => div => span */
+.purple {
+    color: rgb(138, 63, 209);
+}
+
+/* Main Second Section */
+main hr {
+    border: 0;
+    height: 1.2px;
+    margin: 40px 84px;
+    background: #1a1835;
+}
+
+/* Path => Secondsection */
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+/* Path => Secondsection => h1*/
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+/* Path => Secondsection div => box */
+.secondSection .box {
+    background: white;
+    width: 83vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+/* Path => Secondsection div => vertical */
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+/* secondSection => div => span */
+.text-grey {
+    color: gray;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(16, 8, 44);
+}
+
+/* Footer single div Changing */
+.footer-box > div {
+    width: 120px;
+}
+
+/* Footer => Class */
+.footer-box {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+/* Footer => Class => ul */
+.footer-box ul {
+    list-style: none;
+}
+
+/* Footer => Class => footer-right */
+footer .footer-rights {
+    text-align: center;
+    color: rgb(79, 79, 241);
+    padding: 12px 0;
+}
+
+
+
+/* Using type.js => first target is element */
+#element {
+    color: rgb(17, 155, 173);
+}
